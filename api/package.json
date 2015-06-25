@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Server for interacting with the QuantifiedStuff API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantifiedStuff/server.git"
+  },
+  "author": "brian717",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuantifiedStuff/server/issues"
+  },
+  "homepage": "https://github.com/QuantifiedStuff/server#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cluster": "^0.7.7",
+    "compression": "^1.5.0",
+    "express": "^4.13.0",
+    "mongodb": "^2.0.35"
+  }
+}
